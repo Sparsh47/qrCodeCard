@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root{
+    --white:hsl(0, 0%, 100%);
+    --light-gray:hsl(212, 45%, 89%);
+    --grayish-blue:hsl(220, 15%, 55%);
+    --dark-blue:hsl(218, 44%, 22%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 58em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* font-family: 'Righteous'; */
+    background-color: #C1EDFA;
+}
+
+.main-container{
+    background-color: #AEE5FA;
+    width: 85em;
+    height: 40em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: -6px 5px 23px 3px rgba(31,50,81,0.54);
+    -webkit-box-shadow: -6px 5px 23px 3px rgba(31,50,81,0.54);
+    -moz-box-shadow: -6px 5px 23px 3px rgba(31,50,81,0.54); */
+    -webkit-box-shadow: -6px 5px 18px 2px rgba(31, 50, 81, 0.39);
+    -moz-box-shadow:    -6px 5px 18px 2px rgba(31, 50, 81, 0.39);
+    box-shadow:         -6px 5px 18px 2px rgba(31, 50, 81, 0.39);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E7EFF8;
+    height:30em;
+    width: 20.5em;
+    padding: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 10px;
+    /* box-shadow: -6px 5px 23px 3px rgba(31,50,81,0.3);
+    -webkit-box-shadow: -6px 5px 23px 3px rgba(31,50,81,0.3);
+    -moz-box-shadow: -6px 5px 23px 3px rgba(31,50,81,0.3); */
+    -webkit-box-shadow: -6px 5px 18px 2px rgba(31, 50, 81, 0.39);
+    -moz-box-shadow:    -6px 5px 18px 2px rgba(31, 50, 81, 0.39);
+    box-shadow:         -6px 5px 18px 2px rgba(31, 50, 81, 0.39);
+}
+
+.qr{
+    width: 18em;
+    height: 18em;
+    border-radius:10px;
+    /* box-shadow: -6px 5px 23px 3px rgba(31,50,81,0.54);
+    -webkit-box-shadow: -6px 5px 23px 3px rgba(31,50,81,0.54);
+    -moz-box-shadow: -6px 5px 23px 3px rgba(31,50,81,0.54); */
+    -webkit-box-shadow: -6px 5px 18px 2px rgba(31, 50, 81, 0.39);
+    -moz-box-shadow:    -6px 5px 18px 2px rgba(31, 50, 81, 0.39);
+    box-shadow:         -6px 5px 18px 2px rgba(31, 50, 81, 0.39);
+    
+}
+
+.bold{
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    text-shadow: -2px 2px 4px rgba(31, 50, 81, 0.53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.normal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 12px;
+    text-shadow: -2px 2px 4px rgba(31, 50, 81, 0.53);
+}
